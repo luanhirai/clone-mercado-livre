@@ -1,0 +1,148 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 25px;
+
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 500px;
+    padding: 20px;
+    max-height: 700px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #888;
+}
+
+.price{
+    font-size: 40px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+.productDetail{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.detalhes{
+    border-radius: 10px;
+    box-shadow: rgba(189, 197, 201, 0.068) 0px 2px 4px 0px, rgba(143, 162, 170, 0.288) 0px 2px 16px 0px;
+    padding: 15px;
+    width: 300px;
+}
+
+
+
+
+
+.container_chat {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 25px;
+
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.chat {
+    max-width: 900px;
+    height: 400px; /* Altura definida para o feed do chat */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #f7f7f7;
+    overflow-y: auto; /* Habilita a rolagem vertical */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+/* Pergunta (mensagem à esquerda) */
+.pergunta {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 5px 0;
+    max-width: 60%;
+    align-self: flex-start; /* Alinha à esquerda */
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Resposta (mensagem à direita) */
+.resposta {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 5px 0;
+    max-width: 60%;
+    align-self: flex-end; /* Alinha à direita */
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Input de chat */
+.chatInput {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre os campos */
+    margin-top: 10px;
+}
+
+.question {
+    flex: 1;
+    height: 50px;
+    padding: 0 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.question:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.button {
+    height: 50px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+

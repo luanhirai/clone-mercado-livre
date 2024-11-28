@@ -1,0 +1,120 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinha verticalmente */
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 500px;
+    box-shadow: 0px 4px 8px rgba(226, 226, 226, 0.493); /* Sombra suave para dar destaque */
+}
+
+.form {
+    padding: 30px;
+    width: 100%;
+    max-width: 400px; /* Limita o tamanho do formulário */
+    border: 1px solid rgba(0, 0, 0, 0.111);
+    border-radius: 7px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; /* Adiciona espaçamento entre os campos */
+}
+
+.input label {
+    margin-bottom: 5px; /* Distância entre o rótulo e o campo */
+    font-weight: bold;
+}
+
+.campos {
+    height: 50px;
+    padding: 0 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    margin-bottom: 10px; /* Espaço abaixo dos campos de input */
+    font-size: 16px;
+}
+
+.campos:focus {
+    border-color: #3498db; /* Cor de destaque ao focar no input */
+    outline: none;
+    box-shadow: #3498db 0px 1px 3px;
+}
+
+.botao {
+    height: 40px;
+    width: 100%;
+    background-color: #3498db; /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #2980b9; /* Cor de fundo ao passar o mouse */
+}
+
+.title{
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px; /* Espaço acima do formulário */
+    font-size: 22px;
+    color: #333;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .container {
+        height: auto;
+        padding: 10px;
+    }
+
+    .form {
+        padding: 20px;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .botao {
+        width: 100%;
+    }
+}
+
+
+
+.label{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.562);
+}
+
+
+
+
+.header{
+    background-color: rgb(255, 240, 1,1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.logo{
+    width: 120px;
+    height: 35px;
+}
+
+
